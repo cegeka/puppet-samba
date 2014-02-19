@@ -12,5 +12,15 @@
 #
 class samba {
 
+  package { 'samba':
+    ensure  => installed,
+    notify  => Service['smb']
+  }
+
+  service { 'smb':
+    ensure => 'running',
+    enable => true,
+    hasstatus => true
+  }
 
 }
