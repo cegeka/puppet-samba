@@ -18,8 +18,8 @@ class samba {
   }
 
   service { 'smb':
-    ensure => 'running',
-    enable => true,
+    ensure    => 'running',
+    enable    => true,
     hasstatus => true
   }
 
