@@ -1,1 +1,1 @@
-include samba
+class { 'samba': }
