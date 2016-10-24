@@ -1,0 +1,7 @@
+<% @config.sort.each do |configblock, configblock_values| -%>
+[<%= configblock %>]
+<% configblock_values.sort.each do |config_key,config_value| -%>
+      <%= config_key %> = <%= config_value %>
+<% end -%>
+
+<% end -%>
