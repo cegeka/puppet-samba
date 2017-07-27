@@ -1,5 +1,5 @@
 = puppet-samba module
 
-{<img src='https://codex.cegeka.be/jenkins/job/puppet-samba/badge/icon' />}[https://codex.cegeka.be/jenkins/job/puppet-samba/]
+{<img src='https://jenkins-iac.cegeka.be/job/puppet-samba/badge/icon' />}[https://jenkins-iac.cegeka.be/job/puppet-samba/]
 
 This is the samba module.
